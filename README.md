@@ -1,4 +1,8 @@
-# Twitter bot detection using profile text and  Fine-Tuning DistilBERT
+<p align="center">
+  <h1>
+    <ins>TWITTER BOT DETECTION USING PROFILE TEXT AND FINE-TUNING DISTILBERT</ins>
+  </h1>
+</p>
 
 <p align="center">
   <a href="https://github.com/SoLuTiOnExE/Twibot-20-Updated">
