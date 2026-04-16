@@ -1,5 +1,11 @@
 # Twitter bot detection using profile text and  Fine-Tuning DistilBERT
 
+<p align="center">
+  <a href="https://github.com/SoLuTiOnExE/Twibot-20-Updated">
+    <img src="https://img.shields.io/badge/Check-Update-00c9ff?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
 ## Table of contents
 1. [Project specifications](#1-project-specifications)  
     1.1. [Introduction](#11-introduction)  
