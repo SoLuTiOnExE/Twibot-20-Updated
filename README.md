@@ -1,7 +1,7 @@
 <p align="center">
-  <h1>
+  <a href="">
     TWITTER BOT DETECTION USING PROFILE TEXT AND FINE-TUNING DISTILBERT
-  </h1>
+  </a>
 </p>
 
 <p align="center">
