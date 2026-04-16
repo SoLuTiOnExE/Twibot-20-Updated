@@ -1,0 +1,117 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!README.md
+!tests_and_bugs.md
+!*.py
+
+# And not these directories...
+!scripts/
+!utilities/
+!models/
+!llama_model/
+!llama_model/scripts/
+!llama_model/utilities/
+!models/distilbert-bot-detector/
+!benchmark_results/
+
+# Include Twibot-22 directory but exclude large data files
+!Twibot-22/
+!Twibot-22/scripts/
+!Twibot-22/utilities/
+!Twibot-22/models/
+!Twibot-22/models/bot_detection_model/
+!Twibot-22/data/
+!Twibot-22/data/README.md
+!Twibot-22/benchmark_results/
+!Twibot-22/README.md
+!Twibot-22/tests_and_bugs.md
+Twibot-22/tweet_*.json
+Twibot-22/edge.csv
+Twibot-22/label.csv
+Twibot-22/split.csv
+Twibot-22/hashtag.json
+Twibot-22/list.json
+
+# Include data directory structure but exclude actual data files
+!data/
+!data/README.md
+!data/Twibot-20/
+!data/Twibot-20/README.md
+!data/twibot20_fixed_dataset/
+!data/twibot20_fixed_dataset/README.md
+!data/twibot20_fixed_tokenized/
+!data/twibot20_fixed_tokenized/README.md
+!data/twibot20_llama_tokenized/
+!data/twibot20_llama_tokenized/README.md
+!data/twibot20_fixed_parquet/
+!data/twibot20_fixed_parquet/README.md
+!data/twibot20_tokenized_parquet/
+!data/twibot20_tokenized_parquet/README.md
+# Ignore actual data files
+data/Twibot-20/*.json
+data/twibot20_fixed_dataset/*.arrow
+data/twibot20_fixed_dataset/*.idx
+data/twibot20_fixed_dataset/dataset_dict.json
+data/twibot20_fixed_dataset/dataset_info.json
+data/twibot20_fixed_tokenized/*.arrow
+data/twibot20_fixed_tokenized/*.idx
+data/twibot20_fixed_tokenized/dataset_dict.json
+data/twibot20_fixed_tokenized/dataset_info.json
+data/twibot20_llama_tokenized/*.arrow
+data/twibot20_llama_tokenized/*.idx
+data/twibot20_llama_tokenized/dataset_dict.json
+data/twibot20_llama_tokenized/dataset_info.json
+data/twibot20_fixed_parquet/*.parquet
+data/twibot20_fixed_parquet/dataset_info.json
+data/twibot20_fixed_parquet/state.json
+data/twibot20_tokenized_parquet/*.parquet
+data/twibot20_tokenized_parquet/dataset_info.json
+data/twibot20_tokenized_parquet/state.json
+
+# Ignore model files
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# Ignore checkpoints
+checkpoint-*/
+
+# Ignore temporary files
+_archive/
+temp_backup/
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Results
+results/
