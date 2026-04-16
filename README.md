@@ -1,8 +1,6 @@
-<p align="center">
-  <a href="">
+<h1 align="center">
     TWITTER BOT DETECTION USING PROFILE TEXT AND FINE-TUNING DISTILBERT
-  </a>
-</p>
+</h1>
 
 <p align="center">
   <a href="https://github.com/SoLuTiOnExE/Twibot-20-Updated">
